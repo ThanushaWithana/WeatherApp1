@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("pexels-codioful-(formerly-gradienta)-7130469.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    width: 90%;
+    height: 60%;
+    margin: 20px auto;
+}
+
+.mainConatiner {
+    /* border: 2px solid red; */
+    width: 50%;
+    background-color: rgb(97, 75, 66);
+    margin: 20px auto 0;
+    border-radius: 20px;
+}
+
+th {
+    background-color: lightblue;
+    font-size: 17px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+}
+
+td input[type="text"],
+td input[type="email"] {
+    width: 100%;
+    /* display: block; */
+    box-sizing: border-box;
+    /* border: 1px solid #ccc; */
+}
+
+
+.rform {
+
+    text-align: center;
+}
+
+#Register {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 32px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn-cancel {
+    background-color: red;
+}
+
+#content {
+    background-color: #210e0e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30vh;
+}
+
+.ribbon {
+    position: relative;
+    top: 5px;
+    right: -1300px;
+    height: 125px;
+    width: 125px;
+
+}
